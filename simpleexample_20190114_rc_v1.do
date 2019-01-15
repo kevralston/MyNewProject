@@ -28,7 +28,12 @@ summ length
 
 summ displacement
 
+
 reg mpg weight length
+
+
+
+
 
 * EOF
 *********************************************************************
