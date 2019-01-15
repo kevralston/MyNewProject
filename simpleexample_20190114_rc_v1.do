@@ -28,5 +28,11 @@ summ length
 
 summ displacement
 
+* Examine the foreign variable
+
+tab foreign
+
+
+
 * EOF
 *********************************************************************
