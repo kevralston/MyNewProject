@@ -15,7 +15,7 @@ STOP
 sysuse auto
 
 * Examine the codebook
-codebook
+codebook, compact
 
 * Tabulate the foreign variable
 tab foreign
@@ -27,6 +27,8 @@ summ length
 * Descriptives for displacement
 
 summ displacement
+
+reg mpg weight length
 
 * EOF
 *********************************************************************
