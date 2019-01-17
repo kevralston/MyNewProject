@@ -31,7 +31,22 @@ summ displacement
 
 reg mpg weight length
 
+*********************************************
 
+* another model I'd like to took at - KR
+
+reg price mpg rep78 headroom
+
+
+* Read the model out to an Word document
+
+* install asdoc (if the version of Stata does not have the module)
+
+ssc install asdoc, update
+
+* use asdoc to export model
+
+asdoc reg price mpg rep78 headroom, save(Reg_1.doc)
 
 
 
